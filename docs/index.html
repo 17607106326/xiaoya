@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>小芽 · 桌面生活伴侣 — 完全属于你自己的生活工作台</title>
+  <meta name="description" content="小芽（MyWorkbench）是一款本地优先的桌面生活工作台：待办、日历、记账、日记、习惯、心情、相册、便签……全部数据留在你自己的电脑里，还有一颗会陪你长大的小芽。" />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <script type="module" crossorigin src="/assets/index-DIfTPoBa.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-BMJHDhyP.css">
+</head>
+<body>
+  <!-- 背景氛围：有机光斑 + 漂浮叶片 -->
+  <div class="bg-deco" aria-hidden="true">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+    <span class="leaf leaf-1">🌿</span>
+    <span class="leaf leaf-2">🍃</span>
+    <span class="leaf leaf-3">🌱</span>
+  </div>
+
+  <!-- 顶部导航 -->
+  <header class="site-nav glass" id="top">
+    <a class="brand" href="#top">
+      <span class="brand-icon">🌱</span>
+      <span class="brand-name">小芽</span>
+      <span class="brand-sub">桌面生活伴侣</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#highlights">亮点</a>
+      <a href="#modules">功能模块</a>
+      <a href="#theme">主题换肤</a>
+      <a href="#download">下载</a>
+      <a href="#docs">使用文档</a>
+      <a href="#faq">常见问题</a>
+    </nav>
+    <a class="nav-cta" href="#download">⬇️ 免费下载</a>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-copy reveal">
+        <p class="hero-badge">🪴 本地优先 · 无需注册 · 数据不出电脑</p>
+        <h1>把日子过成<em>自己喜欢的样子</em></h1>
+        <p class="hero-desc">
+          小芽是一款桌面生活工作台：待办、日历、记账、日记、习惯、心情、相册、便签一站式安放，
+          11 套主题随心换肤，还有一颗完成任务就会进化的桌面小芽——而所有数据，都完完整整留在你自己手里。
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#download">⬇️ 免费下载 Windows 版</a>
+          <a class="btn ghost" href="#docs">📖 阅读使用文档</a>
+        </div>
+        <div class="hero-meta">
+          <span>🖥️ Windows 桌面应用</span>
+          <span>🎨 11 套内置主题</span>
+          <span>🧩 16 个可配置模块</span>
+        </div>
+      </div>
+
+      <!-- Hero 视觉：应用窗口拟态 -->
+      <div class="hero-visual reveal delay-1" aria-hidden="true">
+        <div class="mock-window">
+          <div class="mock-titlebar">
+            <span class="mock-dot red"></span><span class="mock-dot yellow"></span><span class="mock-dot green"></span>
+            <span class="mock-title">🌱 小芽 · 桌面生活伴侣</span>
+          </div>
+          <div class="mock-body">
+            <div class="mock-greet">
+              <strong>中午好，朋友</strong>
+              <span>今天也要好好生活呀 ☀️</span>
+            </div>
+            <div class="mock-cards">
+              <div class="mock-card c-todo">📋 <b>待办</b><span>还剩 3 项</span></div>
+              <div class="mock-card c-habit">✅ <b>习惯</b><span>已打卡 2/4</span></div>
+              <div class="mock-card c-mood">😊 <b>心情</b><span>今天很开心</span></div>
+              <div class="mock-card c-note">📝 <b>便签</b><span>记得喝水～</span></div>
+            </div>
+            <div class="mock-pet">🌱<i>完成一项待办我就长经验哦！</i></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 亮点 -->
+    <section id="highlights" class="section">
+      <h2 class="section-title reveal">为什么是小芽？</h2>
+      <p class="section-sub reveal">不追求大而全的云生态，只做好一件事：把生活数据留在你自己手里。</p>
+      <div class="feature-grid">
+        <article class="feature-card glass reveal">
+          <span class="feature-icon">🔒</span>
+          <h3>完全去中心化</h3>
+          <p>没有官方服务器，不注册、不登录、不联网依赖。所有记录存进本地 SQLite，你的日子只属于你。</p>
+        </article>
+        <article class="feature-card glass reveal delay-1">
+          <span class="feature-icon">🎨</span>
+          <h3>11 套主题 + 自定义</h3>
+          <p>昼夜、四季、节日、水墨、液态玻璃……还能创建自己的专属主题；支持昼夜/天气/季节自动联动换肤。</p>
+        </article>
+        <article class="feature-card glass reveal delay-2">
+          <span class="feature-icon">🌗</span>
+          <h3>生活 / 工作双模式</h3>
+          <p>两种模式各自记忆模块集合与主题：上班专注效率，下班回归生活，一键切换互不打扰。</p>
+        </article>
+        <article class="feature-card glass reveal">
+          <span class="feature-icon">📝</span>
+          <h3>便签随身带</h3>
+          <p>便签可以悬浮在应用内，也可以变成独立的桌面小窗；五种颜色跟随当前主题气质自动换肤。</p>
+        </article>
+        <article class="feature-card glass reveal delay-1">
+          <span class="feature-icon">🌱</span>
+          <h3>会长大的桌宠</h3>
+          <p>完成待办、打卡习惯都会变成经验值，小芽从种子一路进化；它还会每 8 分钟冒泡提醒你喝水休息。</p>
+        </article>
+        <article class="feature-card glass reveal delay-2">
+          <span class="feature-icon">🧩</span>
+          <h3>模块自由装配</h3>
+          <p>16 个功能模块按需勾选、拖拽排序，菜单完全由你定义；用不到的功能眼不见心不烦。</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- 功能模块 -->
+    <section id="modules" class="section">
+      <h2 class="section-title reveal">16 个功能模块</h2>
+      <p class="section-sub reveal">每一项都可以在「设置 → 功能模块」中开关与排序，「今日」总览固定第一。</p>
+      <div class="module-wall">
+        <div class="module-chip reveal"><span>🏠</span>今日<i>今日概览与生活仪表盘</i></div>
+        <div class="module-chip reveal"><span>🗺️</span>旅行<i>周边景点探索与 AI 行程规划</i></div>
+        <div class="module-chip reveal"><span>📋</span>待办<i>行程待办与任务清单</i></div>
+        <div class="module-chip reveal"><span>📅</span>日历<i>节假日、纪念日与生日</i></div>
+        <div class="module-chip reveal"><span>⏰</span>定时<i>健康定时任务与闹钟</i></div>
+        <div class="module-chip reveal"><span>🎯</span>规划<i>年度目标与里程碑</i></div>
+        <div class="module-chip reveal"><span>🎓</span>课程表<i>周次、单双周与节次网格</i></div>
+        <div class="module-chip reveal"><span>📖</span>日记<i>旅行日记与随手随笔</i></div>
+        <div class="module-chip reveal"><span>💰</span>记账<i>收支记录与预算统计</i></div>
+        <div class="module-chip reveal"><span>📚</span>读书<i>书单与读书笔记</i></div>
+        <div class="module-chip reveal"><span>🧠</span>知识库<i>Markdown 笔记分类与搜索</i></div>
+        <div class="module-chip reveal"><span>📝</span>便签<i>内置悬浮或独立桌面小窗</i></div>
+        <div class="module-chip reveal"><span>😊</span>心情<i>心情记录与情绪追踪</i></div>
+        <div class="module-chip reveal"><span>✅</span>习惯<i>习惯打卡与坚持追踪</i></div>
+        <div class="module-chip reveal"><span>🖼️</span>相册<i>照片回忆与相册管理</i></div>
+        <div class="module-chip reveal"><span>⭐</span>心愿<i>想要实现的梦想清单</i></div>
+      </div>
+    </section>
+
+    <!-- 主题换肤 -->
+    <section id="theme" class="section">
+      <h2 class="section-title reveal">每一天，都可以是一种气质</h2>
+      <p class="section-sub reveal">内置 11 套主题，连便签颜色都会跟着主题一起换装。</p>
+      <div class="theme-strip reveal">
+        <span class="theme-pill" style="--p:#3e8e63">☀️ 白天</span>
+        <span class="theme-pill dark" style="--p:#e8c37e">🌙 夜间</span>
+        <span class="theme-pill" style="--p:#0a84ff">✨ 液态玻璃</span>
+        <span class="theme-pill" style="--p:#6b5b4a">🎋 水墨</span>
+        <span class="theme-pill" style="--p:#4a9b7f">🌿 清新</span>
+        <span class="theme-pill" style="--p:#56718f">📋 标准</span>
+        <span class="theme-pill" style="--p:#e88fb0">🌸 春</span>
+        <span class="theme-pill" style="--p:#2a9dc9">🌊 夏</span>
+        <span class="theme-pill" style="--p:#d98a3d">🍂 秋</span>
+        <span class="theme-pill" style="--p:#7fb4e0">❄️ 冬</span>
+        <span class="theme-pill dark" style="--p:#e05d5d">🧧 节日</span>
+      </div>
+      <div class="theme-note reveal">
+        <p>还支持 <b>跟随系统深浅色</b>、<b>自定义主题编辑器</b>，以及 <b>动态联动</b>：昼夜、天气、季节/节日自动切换，打开应用就是当下的氛围。</p>
+      </div>
+    </section>
+
+    <!-- 下载 -->
+    <section id="download" class="section">
+      <h2 class="section-title reveal">把小芽带回家</h2>
+      <p class="section-sub reveal">完全免费、开源、无需注册。下载即用，所有数据留在你自己的电脑里。</p>
+      <div class="download-grid">
+        <a class="download-card glass reveal"
+           href="https://github.com/17607106326/xiaoya/releases/latest/download/MyWorkbench_0.1.0_x64-setup.exe"
+           download>
+          <span class="download-icon">🪟</span>
+          <h3>Windows 安装包</h3>
+          <p>推荐 · 双击安装，一路下一步即可完成</p>
+          <span class="download-btn">⬇️ 下载 .exe 安装包</span>
+          <i class="download-ver">v0.1.0 · Windows 10/11 x64</i>
+        </a>
+        <a class="download-card glass reveal delay-1"
+           href="https://github.com/17607106326/xiaoya/releases/latest/download/MyWorkbench_0.1.0_x64_en-US.msi"
+           download>
+          <span class="download-icon">📦</span>
+          <h3>Windows MSI</h3>
+          <p>适合企业部署与静默安装场景</p>
+          <span class="download-btn ghost-btn">⬇️ 下载 .msi 包</span>
+          <i class="download-ver">v0.1.0 · Windows 10/11 x64</i>
+        </a>
+        <a class="download-card glass reveal delay-2"
+           href="https://github.com/17607106326/xiaoya/releases" target="_blank" rel="noopener">
+          <span class="download-icon">🗂️</span>
+          <h3>全部版本</h3>
+          <p>历史版本与更新日志，尽在 GitHub Releases</p>
+          <span class="download-btn ghost-btn">🔗 前往 Releases</span>
+          <i class="download-ver">开源 MIT · 欢迎 Star</i>
+        </a>
+      </div>
+      <div class="theme-note reveal">
+        <p>安装后首次启动请阅读 <a href="#doc-install">安装与首次启动</a> 文档选择数据存储目录；升级新版本直接覆盖安装即可，数据不受影响。</p>
+      </div>
+    </section>
+
+    <!-- 使用文档 -->
+    <section id="docs" class="section docs-section">
+      <h2 class="section-title reveal">使用说明文档</h2>
+      <p class="section-sub reveal">从安装到进阶玩法，五分钟从小白到熟练。</p>
+
+      <div class="docs-layout">
+        <!-- 文档侧边目录 -->
+        <nav class="docs-toc glass" aria-label="文档目录">
+          <a href="#doc-install" class="toc-link">1. 安装与首次启动</a>
+          <a href="#doc-layout" class="toc-link">2. 界面与标题栏</a>
+          <a href="#doc-mode" class="toc-link">3. 生活 / 工作模式</a>
+          <a href="#doc-modules" class="toc-link">4. 功能模块装配</a>
+          <a href="#doc-theme" class="toc-link">5. 主题与个性化</a>
+          <a href="#doc-note" class="toc-link">6. 便签玩法</a>
+          <a href="#doc-focus" class="toc-link">7. 专注与桌宠</a>
+          <a href="#doc-keys" class="toc-link">8. 快捷键一览</a>
+          <a href="#doc-data" class="toc-link">9. 数据与备份</a>
+        </nav>
+
+        <div class="docs-body">
+          <article id="doc-install" class="doc-card glass reveal">
+            <h3>1. 安装与首次启动</h3>
+            <ul>
+              <li>下载并运行安装包（Windows），应用名为「小芽 · 桌面生活伴侣」。</li>
+              <li>首次启动会引导你选择 <b>数据存储目录</b>：所有记录都会写入该目录下的本地数据库（SQLite），请选一个安全、常备份的位置。</li>
+              <li>之后每次启动会直接恢复上次的页面、主题与模块设置，无需任何登录。</li>
+            </ul>
+            <div class="doc-tip">💡 开发者：仓库内 <code>pnpm install</code> 后运行 <code>pnpm tauri:dev</code> 即可本地启动；<code>pnpm tauri:build</code> 生成安装包。</div>
+          </article>
+
+          <article id="doc-layout" class="doc-card glass reveal">
+            <h3>2. 界面与标题栏</h3>
+            <ul>
+              <li><b>顶部标题栏</b>：左侧为应用名；中部依次是桌宠小芽、待办脉搏（今日剩余待办）、习惯进度环、专注胶囊，最右侧是快捷记录与全局搜索按钮。</li>
+              <li><b>顶部导航</b>：显示你勾选启用的功能模块，顺序即你在设置里拖拽排出的顺序。</li>
+              <li><b>待办脉搏 / 习惯环</b>：点击可直接跳转到对应模块。</li>
+              <li>窗口右上角提供最小化 / 最大化 / 关闭；如设置了锁屏密码，还会出现锁屏按钮。</li>
+            </ul>
+          </article>
+
+          <article id="doc-mode" class="doc-card glass reveal">
+            <h3>3. 生活 / 工作模式</h3>
+            <ul>
+              <li>左上角的「🌙 生活 / 💼 工作」切换器可在两种模式间切换。</li>
+              <li>每种模式 <b>各自记忆</b>：启用的模块集合、模块顺序之外的主题选择。</li>
+              <li>例如：生活模式开全部模块配「春」主题，工作模式只留效率模块配「标准」主题，切换时两者各自还原，互不影响。</li>
+            </ul>
+          </article>
+
+          <article id="doc-modules" class="doc-card glass reveal">
+            <h3>4. 功能模块装配</h3>
+            <ul>
+              <li>打开「设置 → 🧩 功能模块」：勾选的模块才会出现在顶部导航（设置对当前模式生效）。</li>
+              <li>卡片可以 <b>拖拽排序</b>：按住卡片拖到目标位置，出现竖线指示后松手；「今日」总览固定第一，不参与排序。</li>
+              <li>「全选」一键启用全部模块；「恢复默认」会同时重置勾选与排序。</li>
+            </ul>
+          </article>
+
+          <article id="doc-theme" class="doc-card glass reveal">
+            <h3>5. 主题与个性化</h3>
+            <ul>
+              <li>「设置 → 🎨 主题外观」：11 套内置主题 + 「跟随系统」深浅色自动切换。</li>
+              <li><b>自定义主题</b>：以任意内置主题为基底，逐项编辑颜色与透明度，打造专属配色。</li>
+              <li><b>动态联动</b>：可开启昼夜 / 天气 / 季节节日联动，应用自动匹配当下氛围（天气联动需配置城市）。</li>
+              <li><b>个性化文案</b>：应用名称、底部文案、主页问候称呼都可以自定义。</li>
+              <li>便签颜色是「每主题专属五色」，切主题时便签自动换装，始终与整体风格协调。</li>
+            </ul>
+          </article>
+
+          <article id="doc-note" class="doc-card glass reveal">
+            <h3>6. 便签玩法</h3>
+            <ul>
+              <li>「便签」模块统一管理所有便签：新建、编辑、删除、换色（黄 / 蓝 / 绿 / 粉 / 紫）。</li>
+              <li><b>内置模式</b>：便签悬浮在所有页面之上，可拖动、右下角可拉伸大小，位置自动记忆。</li>
+              <li><b>桌面模式</b>：一键把便签放到系统桌面变成独立小窗，随时收回程序内；删除便签时小窗自动关闭。</li>
+              <li>便签内容实时双向同步：在程序里改，桌面小窗立刻更新，反之亦然。</li>
+            </ul>
+          </article>
+
+          <article id="doc-focus" class="doc-card glass reveal">
+            <h3>7. 专注与桌宠</h3>
+            <ul>
+              <li><b>专注胶囊</b>：点击标题栏的专注按钮，选择 15 / 25 / 45 分钟开始一轮专注，支持暂停 / 继续 / 结束；专注中会显示倒计时进度环。</li>
+              <li><b>桌宠小芽</b>：完成待办（+2 经验）、打卡习惯（+3 经验）会让小芽进化；点击它可以查看当前阶段与距离下次进化的经验。</li>
+              <li>小芽每 8 分钟随机冒泡陪伴，不会打扰你正在进行的输入。</li>
+            </ul>
+          </article>
+
+          <article id="doc-keys" class="doc-card glass reveal">
+            <h3>8. 快捷键一览</h3>
+            <table class="key-table">
+              <thead><tr><th>快捷键</th><th>功能</th></tr></thead>
+              <tbody>
+                <tr><td><kbd>Ctrl</kbd> + <kbd>K</kbd></td><td>唤起快捷记录</td></tr>
+                <tr><td><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>M</kbd></td><td>唤起快捷记录（备用）</td></tr>
+                <tr><td><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>F</kbd></td><td>全局搜索（待办、日记、账单、读书、习惯、心愿、日历、行程……）</td></tr>
+              </tbody>
+            </table>
+            <div class="doc-tip">💡 快捷键可在「设置 → 快捷键」页面修改。</div>
+          </article>
+
+          <article id="doc-data" class="doc-card glass reveal">
+            <h3>9. 数据与备份</h3>
+            <ul>
+              <li>所有数据保存在本地数据库，<b>不上传任何服务器</b>。</li>
+              <li>「设置 → 数据与备份」支持导出 / 导入备份包，换电脑时整包迁移即可。</li>
+              <li>应用会定期生成本地快照，误删数据时可从快照找回。</li>
+            </ul>
+            <div class="doc-tip">💡 建议把数据存储目录放在你自己的网盘同步文件夹或定期备份的磁盘位置。</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section">
+      <h2 class="section-title reveal">常见问题</h2>
+      <div class="faq-list">
+        <details class="faq-item glass reveal">
+          <summary>小芽需要联网吗？</summary>
+          <p>核心功能完全离线可用。仅「旅行」的在线景点搜索、天气联动等可选功能会请求网络，其余数据永远不出本机。</p>
+        </details>
+        <details class="faq-item glass reveal">
+          <summary>换了电脑怎么迁移数据？</summary>
+          <p>在旧电脑「设置 → 数据与备份」导出备份包，在新电脑导入即可；也可以直接拷贝数据存储目录。</p>
+        </details>
+        <details class="faq-item glass reveal">
+          <summary>桌面便签小窗关了，数据会丢吗？</summary>
+          <p>不会。关闭小窗只是收起显示，便签内容仍在「便签」模块里，随时可以再放回桌面。</p>
+        </details>
+        <details class="faq-item glass reveal">
+          <summary>支持哪些系统？</summary>
+          <p>当前提供 Windows 桌面版（基于 Tauri 构建，体积小、启动快）。</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>🌱 小芽 · 桌面生活伴侣 —— 完全属于你自己的生活工作台</p>
+    <p class="footer-sub">© 2026 MyWorkbench · 本地优先 · 用心生活</p>
+  </footer>
+
+</body>
+</html>
